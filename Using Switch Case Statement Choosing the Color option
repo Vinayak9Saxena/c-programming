@@ -1,0 +1,31 @@
+#include <stdio.h>
+void main()
+{
+    int code, colour;
+    
+    printf("Enter the Code:");
+    scanf("%d", &code);
+    
+    switch(code)
+    {
+        case 1:
+        printf("red");
+        break;
+        
+        case 2:
+        printf("blue");
+        break;
+        
+        case 3:
+        printf("green");
+        break;
+        
+        case 4:
+        printf("black");
+        break;
+        
+        case 5:
+        printf("white");
+        break;
+    }
+}
