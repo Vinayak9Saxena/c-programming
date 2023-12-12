@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, result;
+    char op;
+    printf("enter the operation: ");
+    scanf("%c", &op);
+    printf("enter the first number: ");
+    scanf("%d", &a);
+    printf("enter the second number: ");
+    scanf("%d", &b);
+    
+    
+    
+    switch (op)
+    {
+        case '+':
+        result = a+b;
+        printf("sum is: %d", po);
+        break;
+        
+        case '-':
+        result = a-b;
+        printf("result is: %d", po);
+        break;
+        
+        case '*':
+        result = a*b;
+        printf("result is: %d", po);
+        break;
+        
+        case '/':
+        result = a/b;
+        printf("result is: %d", po);
+        break;
+        
+        default:
+        printf("\n error");
+    }
+}
