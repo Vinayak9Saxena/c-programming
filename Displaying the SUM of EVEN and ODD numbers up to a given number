@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+   int i, num, sumE=0, sumO=0;
+   printf("Enter the number: ");
+   scanf("%d", &num);
+   
+   for (i=0; i<=num; i++)
+   {
+       if(i%2==0)
+       {
+           sumE = sumE+i;
+           
+       }
+       else
+       {
+           sumO = sumO+i;
+           
+       }
+       
+   }
+  printf(" the sum for even numbers is: %d", sumE);
+  printf(" the sum for odd numbers is: %d", sumO);
+}
