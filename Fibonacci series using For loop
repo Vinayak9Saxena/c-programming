@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int ele, i, sum, a=0 , b=1;
+    printf("Enter te number of elements: ");
+    scanf("%d", &ele);
+    printf("%d ",a);
+    printf("%d ",b);
+    
+    for(i=2; i<ele; i++)
+    {
+        sum = a+b;
+        printf("%d ", sum);
+        a = b;
+        b = sum;
+    }
+}
